@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Fun Quizz</title>
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
     <section id="container">
-        <header>
+        <div id="heading-div">
         <h1 class="heading">Welcome to fun quizz</h1>
         <h2>Test Your knowledge by doing this fun quiz</h2>
-        </header>
+        </div>
     <div class="rules">
         <h3>Rules:</h3>
         <h4><span>10 questions</span>
@@ -38,28 +40,43 @@
 
 
 <!--start game section-->
-<section>
+<section id='start-game-section'>
     <div>
     <div>Heading</div>
-    <div>Question</div>
+    <div id="questions">Question</div>
     <div>Count question 1/10</div>
-    <div Answers COntainer>
-        <button>Answer 1</button>
-        <button>Answer 1</button>
-        <button>Answer 1</button>
-        <button>Answer 1</button>
+    <div id="answers-div>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
     </div>
-    <div>Timer and score</div>
+    <div>Timer and score
+        <p class="scores">Score <span id="score-abount">0</span></p>
+        <p class="timer">Timer <span id="timer-counter">0</span></p>
+    </div>
+    <button> <i class="fa-solid fa-xmark-large"></i>
+    </button>
 
 
 </div>
 </section>
        <footer>
-        Facebook Link
-        Twitter 
-        ? Contact Us
+        <ul>
+        <li>
+            <a href="www.facebook.com" rel="noopener" target="_blank" aria-label="link that directs you to our facebook page">Facebook</a>
+        </li>
+        <li>
+            <a href="www.twitter.com" rel="noopener" target="_blank" aria-label="link that directs you to our twitter page">twitter</a>
+        </li>
+        <li>
+            <a href="#" rel="noopener" target="_blank" aria-label="link that directs you to our contact">ask questions</a>
+        </li>
+    </ul>
        </footer>
 
     <script src="assets/js/script.js"></script>
+    <!--font awesome link-->
+  
 </body>
 </html>
