@@ -1,0 +1,52 @@
+/* Google font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Roboto:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*choose background for html*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(148, 219, 255, 0.89);
+
+}
+
+/*footer syling*/
+
+/*footer styling*/
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 50vw;
+}
+
+footer>ul {
+    list-style-type: none;
+    display: flex;
+}
+
+
+
+.footer-links>li {
+    padding: 5vw;
+    margin: 2vw;
+
+}
+
+#container,
+{
+    max-width: 80%;
+    width: 80vw;
+
+}
