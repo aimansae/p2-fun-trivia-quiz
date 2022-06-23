@@ -66,7 +66,7 @@ h1{
     text-transform:uppercase;
     font-family: Abhaya, sans-serif;
     font-size:200%;
-    margin:2% 2%;
+    margin: 2% 2%;
 }
 @keyframes zoominoutsinglefeatured{
     0% {
@@ -115,8 +115,7 @@ h2{
  .form{
     display:flex
     width:100vh;
-    margin:4% 3%; 
-    
+    margin: 4% 3%;
 }
 
 .form label{
@@ -138,13 +137,13 @@ input{
     border:solid 1px black ;
 }
 #start-button{
-    margin: 5% 4%;
+    margin: 6% 4%;
     transition: transform .2s;
     font-size:190%;
     height:50px;
     text-transform:uppercase;
     font-family: 'Abhaya', sans-serif;
-    box-shadow: 2px 2px 4px 2px #a90b0b
+    box-shadow: 2px 2px 4px 2px #a90b0b;
 }
 
 .start-button:hover{
@@ -152,3 +151,6 @@ input{
   background:#f5f525;
   transform: scale(1.2);
 }
+
+/*style for start quiz html */
+
