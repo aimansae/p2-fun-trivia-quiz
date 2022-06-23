@@ -22,28 +22,35 @@ body {
 
 }
 
-/*footer syling*/
 
 /*footer styling*/
 footer {
     position: fixed;
     bottom: 0;
-    width: 50vw;
-}
+    width:min-content;
 
-footer>ul {
+}
+.footer-links{
     list-style-type: none;
-    display: flex;
+    display: inline-flex;
 }
 
-
-
-.footer-links>li {
-    padding: 5vw;
-    margin: 2vw;
-
+.footer-links li{
+    padding:2vw;
+    margin:2vw;
 }
 
+.footer-links i {
+    font-size:150%
+}
+.footer-links a:hover{
+    text-shadow: 4px 5px 8px white;
+    font-size: 120%
+}
+
+.footer-links a:acive{
+    color:red;
+}
 #container,
 {
     max-width: 80%;
