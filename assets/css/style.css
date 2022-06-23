@@ -97,7 +97,6 @@ h2 {
 
 .rules {
     font-size: 130%;
-    margin: 2% 2%;
 
 }
 
@@ -117,38 +116,37 @@ h4 {
 }
 
 /*form styling*/
-.form {
-    display: flex;
-    width:100vh;
-    margin: 4% 3%;
+form {
+    text-align:center;
+
+
 }
 
-.form label {
-    float: left;
-    width: 50%;
-    font-size: 180%;
+label {
+    display:inline-block;
+    width:50%;
+    font-size: 150%;
     font-weight: 900;
-    height: 40px;
+    margin:3%;
+    
 
 }
 
-.form input {
-    float: right;
-    width: 50%;
-    height: 40px;
-
-}
 
 input {
     background: transparent;
     border: solid 1px black;
-}
+    height:40px;
+    width:60%;
+    margin:15px;}
+
 
 #start-button {
-    margin: 6% 4%;
+    margin: 2% 4%;
+    padding:2% 2%;
+    overflow:hidden;
     transition: transform .2s;
-    font-size: 190%;
-    height: 50px;
+    font-size: 150%;
     text-transform: uppercase;
     font-family: 'Abhaya', sans-serif;
     box-shadow: 2px 2px 4px 2px #a90b0b;
@@ -183,13 +181,7 @@ input {
     margin: 7% 4%;
 }
 
-h3 {
 
-    font-size: 130%;
-    padding: 5%;
-    font-family: 'Roboto', sans-serif;
-
-}
 
 .btn-grid {
     display: grid;
@@ -213,5 +205,3 @@ h3 {
 .button.wrong{
     background:red;
 }
-
-
